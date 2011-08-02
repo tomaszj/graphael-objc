@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B370555E13E2E50900D9B5BB /* console.js in Resources */ = {isa = PBXBuildFile; fileRef = B370555B13E2E4A900D9B5BB /* console.js */; };
+		B370556B13E2F7B600D9B5BB /* g.raphael-min.js in Resources */ = {isa = PBXBuildFile; fileRef = B370556713E2F6D300D9B5BB /* g.raphael-min.js */; };
+		B370556C13E2F7B900D9B5BB /* g.pie-min.js in Resources */ = {isa = PBXBuildFile; fileRef = B370556913E2F6DE00D9B5BB /* g.pie-min.js */; };
+		B370556F13E2FF8700D9B5BB /* NSArray+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = B370556E13E2FF8700D9B5BB /* NSArray+JavaScript.m */; };
+		B370557213E3047400D9B5BB /* JavaScriptChartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B370557113E3047400D9B5BB /* JavaScriptChartHelper.m */; };
+		B370557C13E3097D00D9B5BB /* jquery-1.4.2.js in Resources */ = {isa = PBXBuildFile; fileRef = B370557B13E3097D00D9B5BB /* jquery-1.4.2.js */; };
+		B370558913E309ED00D9B5BB /* raphael.js in Resources */ = {isa = PBXBuildFile; fileRef = B370557E13E309A400D9B5BB /* raphael.js */; };
+		B3F0DCEB13E1C23200D3D340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F0DCEA13E1C23200D3D340 /* UIKit.framework */; };
+		B3F0DCED13E1C23200D3D340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F0DCEC13E1C23200D3D340 /* Foundation.framework */; };
+		B3F0DCEF13E1C23200D3D340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F0DCEE13E1C23200D3D340 /* CoreGraphics.framework */; };
+		B3F0DCF513E1C23200D3D340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3F0DCF313E1C23200D3D340 /* InfoPlist.strings */; };
+		B3F0DCF813E1C23200D3D340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0DCF713E1C23200D3D340 /* main.m */; };
+		B3F0DCFB13E1C23200D3D340 /* UIWebViewTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0DCFA13E1C23200D3D340 /* UIWebViewTestAppDelegate.m */; };
+		B3F0DCFE13E1C23200D3D340 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F0DCFC13E1C23200D3D340 /* MainWindow.xib */; };
+		B3F0DD0113E1C23200D3D340 /* UIWebViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0DD0013E1C23200D3D340 /* UIWebViewTestViewController.m */; };
+		B3F0DD0413E1C23200D3D340 /* UIWebViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F0DD0213E1C23200D3D340 /* UIWebViewTestViewController.xib */; };
+		B3F0DD0B13E1C3D300D3D340 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = B3F0DD0A13E1C3D300D3D340 /* main.html */; };
+		B3F0DD1613E1C64F00D3D340 /* wrapper_methods.js in Resources */ = {isa = PBXBuildFile; fileRef = B3F0DD1413E1C60900D3D340 /* wrapper_methods.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B370555B13E2E4A900D9B5BB /* console.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = console.js; path = ../console.js; sourceTree = "<group>"; };
+		B370556713E2F6D300D9B5BB /* g.raphael-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "g.raphael-min.js"; path = "../g.raphael-min.js"; sourceTree = "<group>"; };
+		B370556913E2F6DE00D9B5BB /* g.pie-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "g.pie-min.js"; path = "../g.pie-min.js"; sourceTree = "<group>"; };
+		B370556D13E2FF8700D9B5BB /* NSArray+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JavaScript.h"; sourceTree = "<group>"; };
+		B370556E13E2FF8700D9B5BB /* NSArray+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JavaScript.m"; sourceTree = "<group>"; };
+		B370557013E3047400D9B5BB /* JavaScriptChartHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptChartHelper.h; sourceTree = "<group>"; };
+		B370557113E3047400D9B5BB /* JavaScriptChartHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptChartHelper.m; sourceTree = "<group>"; };
+		B370557B13E3097D00D9B5BB /* jquery-1.4.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.4.2.js"; path = "../jquery-1.4.2.js"; sourceTree = "<group>"; };
+		B370557E13E309A400D9B5BB /* raphael.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = raphael.js; path = ../raphael.js; sourceTree = "<group>"; };
+		B3F0DCE613E1C23200D3D340 /* UIWebViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F0DCEA13E1C23200D3D340 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3F0DCEC13E1C23200D3D340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3F0DCEE13E1C23200D3D340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3F0DCF213E1C23200D3D340 /* UIWebViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewTest-Info.plist"; sourceTree = "<group>"; };
+		B3F0DCF413E1C23200D3D340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3F0DCF613E1C23200D3D340 /* UIWebViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		B3F0DCF713E1C23200D3D340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F0DCF913E1C23200D3D340 /* UIWebViewTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewTestAppDelegate.h; sourceTree = "<group>"; };
+		B3F0DCFA13E1C23200D3D340 /* UIWebViewTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTestAppDelegate.m; sourceTree = "<group>"; };
+		B3F0DCFD13E1C23200D3D340 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B3F0DCFF13E1C23200D3D340 /* UIWebViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewTestViewController.h; sourceTree = "<group>"; };
+		B3F0DD0013E1C23200D3D340 /* UIWebViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTestViewController.m; sourceTree = "<group>"; };
+		B3F0DD0313E1C23200D3D340 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIWebViewTestViewController.xib; sourceTree = "<group>"; };
+		B3F0DD0A13E1C3D300D3D340 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = main.html; path = ../main.html; sourceTree = "<group>"; };
+		B3F0DD1413E1C60900D3D340 /* wrapper_methods.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = wrapper_methods.js; path = ../wrapper_methods.js; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3F0DCE313E1C23100D3D340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F0DCEB13E1C23200D3D340 /* UIKit.framework in Frameworks */,
+				B3F0DCED13E1C23200D3D340 /* Foundation.framework in Frameworks */,
+				B3F0DCEF13E1C23200D3D340 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B341DF5D13E83D550043F2B8 /* gRaphael-objc */ = {
+			isa = PBXGroup;
+			children = (
+				B370556D13E2FF8700D9B5BB /* NSArray+JavaScript.h */,
+				B370556E13E2FF8700D9B5BB /* NSArray+JavaScript.m */,
+				B370557013E3047400D9B5BB /* JavaScriptChartHelper.h */,
+				B370557113E3047400D9B5BB /* JavaScriptChartHelper.m */,
+				B3F0DD0A13E1C3D300D3D340 /* main.html */,
+				B370555B13E2E4A900D9B5BB /* console.js */,
+				B3F0DD1413E1C60900D3D340 /* wrapper_methods.js */,
+				B370557E13E309A400D9B5BB /* raphael.js */,
+				B370557B13E3097D00D9B5BB /* jquery-1.4.2.js */,
+				B370556713E2F6D300D9B5BB /* g.raphael-min.js */,
+				B370556913E2F6DE00D9B5BB /* g.pie-min.js */,
+			);
+			name = "gRaphael-objc";
+			sourceTree = "<group>";
+		};
+		B3F0DCDB13E1C23100D3D340 = {
+			isa = PBXGroup;
+			children = (
+				B3F0DCF013E1C23200D3D340 /* UIWebViewTest */,
+				B3F0DCE913E1C23200D3D340 /* Frameworks */,
+				B3F0DCE713E1C23200D3D340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F0DCE713E1C23200D3D340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0DCE613E1C23200D3D340 /* UIWebViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F0DCE913E1C23200D3D340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0DCEA13E1C23200D3D340 /* UIKit.framework */,
+				B3F0DCEC13E1C23200D3D340 /* Foundation.framework */,
+				B3F0DCEE13E1C23200D3D340 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3F0DCF013E1C23200D3D340 /* UIWebViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				B341DF5D13E83D550043F2B8 /* gRaphael-objc */,
+				B3F0DCF913E1C23200D3D340 /* UIWebViewTestAppDelegate.h */,
+				B3F0DCFA13E1C23200D3D340 /* UIWebViewTestAppDelegate.m */,
+				B3F0DCFC13E1C23200D3D340 /* MainWindow.xib */,
+				B3F0DCFF13E1C23200D3D340 /* UIWebViewTestViewController.h */,
+				B3F0DD0013E1C23200D3D340 /* UIWebViewTestViewController.m */,
+				B3F0DD0213E1C23200D3D340 /* UIWebViewTestViewController.xib */,
+				B3F0DCF113E1C23200D3D340 /* Supporting Files */,
+			);
+			path = UIWebViewTest;
+			sourceTree = "<group>";
+		};
+		B3F0DCF113E1C23200D3D340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0DCF213E1C23200D3D340 /* UIWebViewTest-Info.plist */,
+				B3F0DCF313E1C23200D3D340 /* InfoPlist.strings */,
+				B3F0DCF613E1C23200D3D340 /* UIWebViewTest-Prefix.pch */,
+				B3F0DCF713E1C23200D3D340 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3F0DCE513E1C23100D3D340 /* UIWebViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F0DD0713E1C23200D3D340 /* Build configuration list for PBXNativeTarget "UIWebViewTest" */;
+			buildPhases = (
+				B3F0DCE213E1C23100D3D340 /* Sources */,
+				B3F0DCE313E1C23100D3D340 /* Frameworks */,
+				B3F0DCE413E1C23100D3D340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewTest;
+			productName = UIWebViewTest;
+			productReference = B3F0DCE613E1C23200D3D340 /* UIWebViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3F0DCDD13E1C23100D3D340 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B3F0DCE013E1C23100D3D340 /* Build configuration list for PBXProject "UIWebViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3F0DCDB13E1C23100D3D340;
+			productRefGroup = B3F0DCE713E1C23200D3D340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F0DCE513E1C23100D3D340 /* UIWebViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3F0DCE413E1C23100D3D340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B370558913E309ED00D9B5BB /* raphael.js in Resources */,
+				B370556C13E2F7B900D9B5BB /* g.pie-min.js in Resources */,
+				B370556B13E2F7B600D9B5BB /* g.raphael-min.js in Resources */,
+				B370555E13E2E50900D9B5BB /* console.js in Resources */,
+				B3F0DD1613E1C64F00D3D340 /* wrapper_methods.js in Resources */,
+				B3F0DCF513E1C23200D3D340 /* InfoPlist.strings in Resources */,
+				B3F0DCFE13E1C23200D3D340 /* MainWindow.xib in Resources */,
+				B3F0DD0413E1C23200D3D340 /* UIWebViewTestViewController.xib in Resources */,
+				B3F0DD0B13E1C3D300D3D340 /* main.html in Resources */,
+				B370557C13E3097D00D9B5BB /* jquery-1.4.2.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3F0DCE213E1C23100D3D340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F0DCF813E1C23200D3D340 /* main.m in Sources */,
+				B3F0DCFB13E1C23200D3D340 /* UIWebViewTestAppDelegate.m in Sources */,
+				B3F0DD0113E1C23200D3D340 /* UIWebViewTestViewController.m in Sources */,
+				B370556F13E2FF8700D9B5BB /* NSArray+JavaScript.m in Sources */,
+				B370557213E3047400D9B5BB /* JavaScriptChartHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3F0DCF313E1C23200D3D340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F0DCF413E1C23200D3D340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3F0DCFC13E1C23200D3D340 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F0DCFD13E1C23200D3D340 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B3F0DD0213E1C23200D3D340 /* UIWebViewTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F0DD0313E1C23200D3D340 /* en */,
+			);
+			name = UIWebViewTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3F0DD0513E1C23200D3D340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3F0DD0613E1C23200D3D340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3F0DD0813E1C23200D3D340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewTest/UIWebViewTest-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewTest/UIWebViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3F0DD0913E1C23200D3D340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewTest/UIWebViewTest-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewTest/UIWebViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3F0DCE013E1C23100D3D340 /* Build configuration list for PBXProject "UIWebViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F0DD0513E1C23200D3D340 /* Debug */,
+				B3F0DD0613E1C23200D3D340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F0DD0713E1C23200D3D340 /* Build configuration list for PBXNativeTarget "UIWebViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F0DD0813E1C23200D3D340 /* Debug */,
+				B3F0DD0913E1C23200D3D340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3F0DCDD13E1C23100D3D340 /* Project object */;
+}
