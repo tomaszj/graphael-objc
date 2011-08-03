@@ -32,10 +32,15 @@
 #pragma mark - UIWebView delegate methods
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    NSArray *data = [NSArray arrayWithObjects:[NSNumber numberWithInteger:3], [NSNumber numberWithInteger:4], [NSNumber numberWithInteger:5], nil];
+    NSArray *xValues = [NSArray arrayWithObjects:[NSNumber numberWithInteger:3], [NSNumber numberWithInteger:4], [NSNumber numberWithInteger:5], [NSNumber numberWithInteger:6], [NSNumber numberWithInteger:7], [NSNumber numberWithInteger:8], nil];
+    
+    NSArray *yValues = [NSArray arrayWithObjects:[NSNumber numberWithInteger:10], [NSNumber numberWithInteger:3], [NSNumber numberWithInteger:2], [NSNumber numberWithFloat:2.5], [NSNumber numberWithInteger:7], [NSNumber numberWithInteger:8], nil];
+    
     NSArray *legend = [NSArray arrayWithObjects:@"First", @"Second", @"Third", nil];
     
-    [JavaScriptChartHelper createPieChartInWebview:self.webView withData:data andLegend:legend];
+    //[JavaScriptChartHelper createPieChartInWebview:self.webView withData:data andLegend:legend];
+    //[JavaScriptChartHelper createLineChartInWebview:self.webView withData:data andLegend:legend];
+    [JavaScriptChartHelper createLineChartInWebview:self.webView withXValues:xValues withYValues:yValues andLegend:legend];
 }
 
 #pragma mark - View lifecycle

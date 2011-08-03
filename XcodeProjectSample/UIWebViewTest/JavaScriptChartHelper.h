@@ -13,7 +13,11 @@
     
 }
 
-+ (NSString*)getJSChartCodeWithArray:(NSArray*)dataArray andLegendArray:(NSArray*)legendArray;
-+ (void)createPieChartInWebview:(UIWebView*)webView withData:(NSArray*)data andLegend:(NSArray*)legend ;
++ (void)createPieChartInWebview:(UIWebView*)webView withData:(NSArray*)data andLegend:(NSArray*)legend;
++ (void)createLineChartInWebview:(UIWebView*)webView withXValues:(NSArray*)xValues withYValues:(NSArray*)yValues andLegend:(NSArray*)legend;
+
++ (NSString*)getJSChartCodeWithName:(NSString*)chartName andArray:(NSArray*)dataArray andLegendArray:(NSArray*)legendArray;
+
++ (NSString*)getJSXYChartCodeWithName:(NSString*)chartName andXArray:(NSArray*)xArray andYArray:(NSArray*)yArray andLegendArray:(NSArray*)legendArray;
 
 @end

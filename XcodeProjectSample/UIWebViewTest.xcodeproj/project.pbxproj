@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B355140213E949A70072A77C /* g.line-min.js in Resources */ = {isa = PBXBuildFile; fileRef = B35513FF13E949950072A77C /* g.line-min.js */; };
 		B370555E13E2E50900D9B5BB /* console.js in Resources */ = {isa = PBXBuildFile; fileRef = B370555B13E2E4A900D9B5BB /* console.js */; };
 		B370556B13E2F7B600D9B5BB /* g.raphael-min.js in Resources */ = {isa = PBXBuildFile; fileRef = B370556713E2F6D300D9B5BB /* g.raphael-min.js */; };
 		B370556C13E2F7B900D9B5BB /* g.pie-min.js in Resources */ = {isa = PBXBuildFile; fileRef = B370556913E2F6DE00D9B5BB /* g.pie-min.js */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B35513FF13E949950072A77C /* g.line-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "g.line-min.js"; sourceTree = "<group>"; };
 		B370555B13E2E4A900D9B5BB /* console.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = console.js; path = ../console.js; sourceTree = "<group>"; };
 		B370556713E2F6D300D9B5BB /* g.raphael-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "g.raphael-min.js"; path = "../g.raphael-min.js"; sourceTree = "<group>"; };
 		B370556913E2F6DE00D9B5BB /* g.pie-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "g.pie-min.js"; path = "../g.pie-min.js"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B370557B13E3097D00D9B5BB /* jquery-1.4.2.js */,
 				B370556713E2F6D300D9B5BB /* g.raphael-min.js */,
 				B370556913E2F6DE00D9B5BB /* g.pie-min.js */,
+				B35513FF13E949950072A77C /* g.line-min.js */,
 			);
 			name = "gRaphael-objc";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B355140213E949A70072A77C /* g.line-min.js in Resources */,
 				B370558913E309ED00D9B5BB /* raphael.js in Resources */,
 				B370556C13E2F7B900D9B5BB /* g.pie-min.js in Resources */,
 				B370556B13E2F7B600D9B5BB /* g.raphael-min.js in Resources */,
